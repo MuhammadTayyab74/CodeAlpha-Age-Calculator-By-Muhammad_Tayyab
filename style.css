@@ -1,0 +1,81 @@
+body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://img.freepik.com/free-photo/fresh-green-leaf-up-close-with-dewdrops-generated-by-ai_188544-15516.jpg?t=st=1712943763~exp=1712947363~hmac=72339a658a83e1eecab61354aab4f3c10435158de720ab34f9ae8eaf3f0a5179&w=1380");
+            width: 100%;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        .form-sec{
+            backdrop-filter: blur(30px);
+            margin-top: 120px;
+            margin-left: 320px;
+            padding: 28px 14px;
+            border-radius: 10px;
+            border: 2px double darkolivegreen;
+        }
+        .header {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .result-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .result {
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+        }
+        .btn-custom{
+            background-color: teal;
+        }
+
+        /* Customizing select option */
+        select.form-control {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding: 8px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #495057;
+            font-size: 16px;
+            width: 100%;
+        }
+        select.form-control option {
+            background-color: #f2f2f2;
+            color: #495057;
+            font-size: 16px;
+        }
+
+        /* Custom Preloader */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            z-index: 9999;
+            display: none;
+        }
+        .loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
